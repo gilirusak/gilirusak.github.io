@@ -1,0 +1,66 @@
+/* Style all links */
+a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+/* Unvisited links */
+a:link {
+  color: blue;
+}
+
+/* Visited links */
+a:visited {
+  color: purple;
+}
+
+/* Links when hovered */
+a:hover {
+  color: red;
+  /* Restore underline from default rule */
+  text-decoration: underline;
+}
+
+/* Change block element to inline */
+h1 {
+  display: inline;
+  padding: 3px;
+  color: #F5F5F5;
+}
+
+h2 {
+  display: inline;
+  padding: 3px;
+}
+
+p, ul {
+  font-size: 14pt;
+}
+
+/* Give inline element width/height */
+strong {
+  text-decoration: bold;
+  /*border: 1px solid black;*/
+
+  /* Try: block vs. inline-block */
+  /*display: inline-block;
+  width: 200px;
+  height: 100px;*/
+}
+
+/* img can always have width/height */
+img {
+  width: 400px;
+  /* With only one, keep aspect ratio */
+  /*height: 50px;*/
+}
+
+.title-area {
+  margin-bottom: 1rem;
+  background: #A8003B;
+  padding: 20px;
+}
+
+body{
+  font-family: "Muli"
+}
